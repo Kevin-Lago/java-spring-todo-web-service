@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/todo-0.0.1-SNAPSHOT.jar --spring.datasource.url=$JAWSDB_URL
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/todo-0.0.1-SNAPSHOT.jar --spring.datasource.url=jdbc:$JAWSDB_URL
